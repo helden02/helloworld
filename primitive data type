@@ -1,0 +1,21 @@
+public class App {
+    public static void main(String[] args) {
+        // Отображение цен
+        double priceApple = 150.00; //рублей за кг
+        double priceMilk = 85.50;   //рублей за литр
+        double priceBread = 30.00; //рублей за штуку
+
+        //Количество
+        int volumeApple = 4; // кг
+        int volumeMilk = 2;  // литров
+        int volumeBread = 3; // штуки
+        // Общая сумма
+        double allPrice = priceApple * volumeApple + priceMilk * volumeMilk + priceBread * volumeBread;
+        // Итог
+        boolean result = true;
+        // Символьный тип данных
+        char ruble = '₽';
+        System.out.println("Итоговая сумма за все товары :" + allPrice + ruble);
+        System.out.println("Задача решена: " + result);
+    }
+}
